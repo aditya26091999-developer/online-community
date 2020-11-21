@@ -1,0 +1,54 @@
+<ion-content [fullscreen]="true">
+    <ion-slides pager="true" [options]="slideOpts">
+      <ion-slide>
+        <ion-card>
+        <ion-grid>
+          <ion-row>
+            <ion-col>
+              <img src="../../assets/images/communication.svg" alt="">
+            </ion-col>
+            <ion-col id="card-desc">
+              <h1>Collaborate with students all over the globe!</h1>
+              <h6>A great medium to share and solve all your doubts,<br> be it relating to engineering, arts or any other topic that comes to your mind!</h6>
+            </ion-col>
+          </ion-row>
+        </ion-grid>
+      </ion-card>
+      </ion-slide>
+
+      <ion-slide>
+        <ion-card>
+        <ion-grid>
+          <ion-row>
+            <ion-col>
+              <img src="../../assets/images/time.svg" alt="">
+            </ion-col>
+            <ion-col id="card-desc">
+              <h1>Save up on time!</h1>
+              <h6> When like minded people share their doubts and solutions,<br> it becomes easy for others to solve their problems quickly and makes them productive.</h6>
+            </ion-col>
+          </ion-row>
+        </ion-grid>
+      </ion-card>
+      </ion-slide>
+
+      <ion-slide>
+        <ion-card>
+        <ion-grid>
+          <ion-row>
+            <ion-col>
+              <img src="../../assets/images/grow-plant.svg" alt="">
+            </ion-col>
+            <ion-col id="card-desc">
+              <h1>Set the roots for online collaboration</h1>
+              <h6>Sharing is caring! <br> You will be responsible to grow this community by planting your knowledge seeds.</h6>
+              <ion-button [routerLink]="['login']">
+                <h4>Let's Contribute</h4>
+              </ion-button>
+            </ion-col>
+          </ion-row>
+        </ion-grid>
+      </ion-card>
+      </ion-slide>
+    </ion-slides>
+</ion-content>
